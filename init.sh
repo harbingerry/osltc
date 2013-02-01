@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ $# -eq 0 ]; then
+	echo "No arguments supplied"
+	exit 1
+fi
+
 cd ~/diy-0.1/data
 git clone git://github.com/pooler/cpuminer.git
 cd cpuminer
