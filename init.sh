@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ~/diy-0.1/data
 git clone git://github.com/pooler/cpuminer.git
 cd cpuminer
 ./autogen.sh
